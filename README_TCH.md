@@ -20,3 +20,11 @@
   * 會需要提供 integration 一些權限，如： 寫入、閱讀和插入(取決於你需要那些功能)
 * 最後，會需要一個資料庫，來跑腳本，需要提前準備好 資料庫id(database id)
 > 資料庫id(database id) 可以從資料庫的網址中取得 -> ```https://www.notion.so/{database_id}?v={nothing_to_do}```
+
+# 如何使用 api？
+* 在 [範例腳本中](example/main.gs)，放入 token 和 資料庫id(database id) 進腳本中的 const。
+* 在 app script 中跑此腳本。
+* 範例會將資料庫中所有的物件都顯示出來。
+* 完成！
+
+# 自己嘗試並修改腳本吧！
