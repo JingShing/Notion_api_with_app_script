@@ -7,16 +7,16 @@
 
 閱讀 notion api 手冊並不是一個很好的經驗。 最近 notion api 的部分語法有更新。(我浪費了一些時間在嘗試 app script 上用 Oauth2.0 接上 notion，並完全搞砸了)
 
-In fact, It is a torture.(There are few tutorial or instance to learn. You can only read the outdated manual or code)
+實話而言，這個經歷談不上好。(網上的教學和實例比較少，大多數都已經過期，已經無法使用)
 
-So, I wrote this repo to help someone like me to keep your time from this horrible api thing.
+我寫此篇筆記，為了和我有共同經歷，一樣在翻閱教學和手冊的人們，有一個更好閱讀的範例和參考。
 
-BTW, I think this time I am doing a great job on commnet in the code.
+順帶一提，
 
-# Before started
-* You may need a notion account.(from register or rent one.)
-* You may need to create a integration from [notion developer](https://developers.notion.com/)
-  * It will generate a ```integration token``` for you.(This is important, save it carefully)
-  * And you need to give integration some of capabilities of writing, reading or inserting.(Depending on what you want to do)
-* Finally, you will need a database to run script on. Exactly, you only need the database id.
-> Data base id can be get on your database webpage. On the url-> ```https://www.notion.so/{database_id}?v={nothing_to_do}```
+# 開始之前
+* 首先，需要準備一個 notion 的帳號(可以註冊，或是借一個)
+* 需要先從 [notion developer](https://developers.notion.com/) 創立 integration
+  * 創立後，會產生專屬的 ```integration token```(這個很重要，請仔細保存)
+  * 會需要提供 integration 一些權限，如： 寫入、閱讀和插入(取決於你需要那些功能)
+* 最後，會需要一個資料庫，來跑腳本，需要提前準備好 資料庫id(database id)
+> 資料庫id(database id) 可以從資料庫的網址中取得 -> ```https://www.notion.so/{database_id}?v={nothing_to_do}```
