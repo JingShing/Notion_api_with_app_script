@@ -6,7 +6,7 @@ Recently I got a mission to write the code about notion api on google app script
 
 It is not a good experience reading notion api manual. Since it was update its syntax recently.(I totally ruined the OAuth2.0 on it, and wasted much of my time.)
 
-In fact, It is a torture.
+In fact, It is a torture.(There are few tutorial or instance to learn. You can only read the outdated manual or code)
 
 So, I wrote this repo to help someone like me to keep your time from this horrible api thing.
 
