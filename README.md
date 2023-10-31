@@ -17,3 +17,5 @@ BTW, I think this time I am doing a great job on commnet in the code.
 * You may need to create a integration from [notion developer](https://developers.notion.com/)
   * It will generate a ```integration token``` for you.(This is important, save it carefully)
   * And you need to give integration some of capabilities of writing, reading or inserting.(Depending on what you want to do)
+* Finally, you will need a database to run script on. Exactly, you only need the database id.
+> Data base id can be get on your database webpage. On the url-> ```https://www.notion.so/{database_id}?v={nothing_to_do}```
